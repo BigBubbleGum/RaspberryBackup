@@ -14,5 +14,5 @@ step3：进入脚本文件 rpi-backup.sh 所在目录，只需要下面两行命
        sudo chmod +x rpi-backup.sh            
        #需要赋可执行权限
       
-       /rpi-backup.sh /dev/sdb1 /dev/sdb2     
+       ./rpi-backup.sh /dev/sdb1 /dev/sdb2     
        #脚本执行有两个参数，第一个参数是树莓派SD卡`/boot`分区的设备名：/dev/sdb1，第二个参数是`/`分区的设备名：/dev/sdb2，视情况修改）
