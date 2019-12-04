@@ -2,6 +2,7 @@
 在Linux系统中一键备份树莓派系统SD卡的脚本
 
 脚本文件来源：https://blog.csdn.net/qingtian11112/article/details/99825257
+
 使用方法：
 step1：下载脚本文件rpi-backup.sh到Linux系统中
 step2：把需要备份的SD卡插入Linux系统中，用 df -h 命令查询下 SD 卡对应的设备名。
